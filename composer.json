@@ -1,0 +1,27 @@
+{
+    "name": "lovelock/m-toolkit",
+    "description": "m's father's PHP dev tookit",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lovelock",
+            "email": "frostwong@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MToolkit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\MToolkit\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    }
+}
